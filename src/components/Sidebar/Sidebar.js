@@ -13,7 +13,6 @@ const Sidebar = () => {
         <img src={LogoS} alt="logo" />
         <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
       </Link>
-      ;
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
@@ -55,7 +54,6 @@ const Sidebar = () => {
           </a>
         </li>
       </ul>
-      ;
     </div>
   );
 };
