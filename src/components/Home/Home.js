@@ -5,22 +5,28 @@ import "./Home.scss";
 const Home = () => {
   return (
     <div className="container home-page">
-      <div className="text-zone">
+      <div className="welcome-text">
+        <h1 className="h1-tag">
+          <span className="h">H</span>
+          <span className="i">i</span>, I am
+          <span className="name-text"> Aakarshan Simkhada</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            at metus nec urna tristique finibus ac non velit. Mauris auctor eros
+            in turpis efficitur, ut ultricies dui convallis. Aliquam ac nulla
+            nec quam fermentum hendrerit. Integer sollicitudin orci non ligula
+            feugiat malesuada. Vivamus fermentum felis non tellus sodales, sit
+            amet condimentum felis dictum. Nulla facilisi. Sed nec erat sit amet
+            purus fringilla tincidunt. Ut nec sodales arcu, non aliquet nisl.
+            Sed vulputat
+          </p>
+        </h1>
+      </div>
+      <div className="profilePic-zone">
         <h1>
           <img src={LogoTitle} alt="developer" />
           <br />
         </h1>
-        {/* <div className="welcome-text">
-          <h1>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-            venenatis, ligula a luctus finibus, tortor dui mattis leo, eget
-            ultricies est turpis ut risus. Duis auctor ipsum vitae arcu
-            pellentesque, a ultrices lectus venenatis. Nulla facilisi. Donec
-            eget nisl auctor, varius magna eu, convallis metus. Vivamus sagittis
-            ipsum sed felis consequat, at suscipit justo vulputate. Curabitur
-            lacinia bibendum dolor, ut placerat nisi.
-          </h1>
-        </div> */}
       </div>
     </div>
   );
