@@ -1,0 +1,24 @@
+.container {
+    border: 1px solid red;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+
+    .text-zone{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 200px;
+        border: 1px solid yellow;
+    }
+
+    img{
+        width:400px;
+        height: auto;
+        border: 1px solid black;
+    }
+
+    .welcome-text{
+        border: 1px solid lightsalmon;
+    }
+}
