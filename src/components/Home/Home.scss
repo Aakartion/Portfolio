@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    border: 1px solid red;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+  
+  .welcome-text {
+    flex: 1; 
+    border: 1px solid lightsalmon;
+    padding: 10px;
+    margin-right: 10px;
+
+    .h1-tag{
+        font-size: 24px;
+        color: bisque;
+        border: 1px solid lightgreen;
+        padding: 5%;
+        text-align: center;
+
+        .h {
+            font-size: 50px; 
+            color: rgb(106, 144, 106); 
+          }
+    
+          .i {
+            font-size: 50px; 
+            color: beige;
+          }
+    
+          .name-text {
+            font-size: 50px;
+            color: beige; 
+          }
+      }
+  }
+  
+  .profilePic-zone {
+    display: flex;
+    border: 1px solid yellow;
+    align-items: center;
+    margin-left: 6%;
+    margin-right: 5%;
+    padding: 10px;
+  }
+  
+  img {
+    width: 400px;
+    height: auto;
+    border: 1px solid black;
+    margin-right: 5%;
+  }
+}
