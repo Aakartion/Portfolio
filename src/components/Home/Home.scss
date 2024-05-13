@@ -15,7 +15,7 @@
     .h1-tag{
         font-size: 24px;
         color: bisque;
-        // border: 1px solid lightgreen;
+        border: 1px solid lightgreen;
         padding: 5%;
         text-align: center;
 
@@ -40,8 +40,8 @@
     display: flex;
     border: 1px solid yellow;
     align-items: center;
-    margin-left: 20px;
-    margin-right: 100px;
+    margin-left: 6%;
+    margin-right: 5%;
     padding: 10px;
   }
   
@@ -49,7 +49,6 @@
     width: 400px;
     height: auto;
     border: 1px solid black;
-    padding: 10px;
-    margin-right: 10px;
+    margin-right: 5%;
   }
 }
